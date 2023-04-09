@@ -51,7 +51,7 @@
       </td>
         <td align="center" valign="middle">
         <a href="https://github.com/LeoNardoRR" target="_blank">
-          <img width="80px" src="Aspose.Words.b5aca02b-b3f4-482c-949b-5c4589a69131.001.jpeg">
+          <img width="80px" src="">
         </a>
       </td>
        <td align="center" valign="middle">
