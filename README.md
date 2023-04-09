@@ -33,7 +33,7 @@
 ## 🧾	License
 -->
 
-## 🤝🏼 Researchers
+## Researchers
 
 <table>
   <tbody>
@@ -43,6 +43,7 @@
           <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
         </a>
       </td>
+      <br>
       <td align="center" valign="middle">
         <a href="https://github.com/erickgalvao04" target="_blank">
           <img width="80px" src="">
