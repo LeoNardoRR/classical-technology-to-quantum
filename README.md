@@ -8,7 +8,9 @@
 
 <a>At the Institution, [FATEC Americana](https://www.fatec.edu.br/) under the guidance of teacher and research [Dra. Mariana Godoy Vazquez Miano](http://lattes.cnpq.br/1666058085031027) we started a search that's talking about the transition from classical computing to quantum computing.</a>
 
+<!--
 ## Tests
+-->
 
 ## This project was built with: 
 
@@ -27,7 +29,9 @@
  
 **Run whatever project you want!**
  
+<!--
 ## 🧾	License
+-->
 
 ## 🤝🏼 Researchers
 
