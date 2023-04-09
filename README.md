@@ -4,32 +4,30 @@
   </a>
 </p>
 
-<!--
-## 👀 Overview
+## About
 
-<br/>
--->
+<a>At the Institution, [FATEC Americana](https://www.fatec.edu.br/) under the guidance of teacher and research [Dra. Mariana Godoy Vazquez Miano](http://lattes.cnpq.br/1666058085031027) we started a search that's talking about the transition from classical computing to quantum computing.</a>
 
-## 📖 About
+## Tests
 
-
-## 🧪 Tests
-
-- [Basic performance comparison between classical and quantum machine learning](https://github.com/pferreirafabricio/ai-big-data-quantum/releases/tag/v0.0.1)
-
-## 🧱 This project was built with: 
+## This project was built with: 
 
 - [Java](https://www.java.com/pt-BR/)
 - [Silq](https://silq.ethz.ch/)
 
-## 🏄‍♂️ Quick Start
- 1. Clone this repository
- ```git clone https://github.com/LeoNardoRR/Classical_technology_to_quantum_technology.git```
- 3. Enter in the project's folder: `cd Classical_technology_to_quantum_technolog`
- 4. Run whatever project you want 😃
+## Quick Start
+*Clone this repository:*
+ ```
+ git clone https://github.com/LeoNardoRR/Classical_technology_to_quantum_technology.git
+ ```
+*Enter in the project's folder:*
+ ```
+ cd Classical_technology_to_quantum_technolog`
+ ```
+ 
+**Run whatever project you want!**
  
 ## 🧾	License
-This project is under the MIT license. Take a look at the [LICENSE](LICENSE) file for more details.
 
 ## 🤝🏼 Researchers
 
