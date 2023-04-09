@@ -24,7 +24,7 @@
  ```
 *Enter in the project's folder:*
  ```
- cd Classical_technology_to_quantum_technolog`
+ cd Classical_technology_to_quantum_technolog
  ```
  
 **Run whatever project you want!**
