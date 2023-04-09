@@ -12,8 +12,6 @@
 
 ## 📖 About
 
-## 🔁 Contributions
-Some contributions made by the authors in external projects.
 
 ## 🧪 Tests
 
@@ -25,9 +23,10 @@ Some contributions made by the authors in external projects.
 - [Silq](https://silq.ethz.ch/)
 
 ## 🏄‍♂️ Quick Start
- 1. Clone this repository `git clone https://github.com/pferreirafabricio/ai-big-data-quantum.git`
- 2. Enter in the project's folder: `cd ai-big-data-quantum`
- 3. Run whatever project you want 😃
+ 1. Clone this repository
+ ```git clone https://github.com/LeoNardoRR/Classical_technology_to_quantum_technology.git```
+ 3. Enter in the project's folder: `cd Classical_technology_to_quantum_technolog`
+ 4. Run whatever project you want 😃
  
 ## 🧾	License
 This project is under the MIT license. Take a look at the [LICENSE](LICENSE) file for more details.
