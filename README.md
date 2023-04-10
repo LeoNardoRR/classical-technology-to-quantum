@@ -43,7 +43,6 @@
           <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
         </a>
       </td>
-      <br>
       <!-- <td align="center" valign="middle">
         <a href="https://github.com/erickgalvao04" target="_blank">
           <img width="80px" src="">
@@ -54,11 +53,11 @@
           <img width="80px" src="https://avatars.githubusercontent.com/u/103374280?v=4">
         </a>
       </td>
-      <!-- <td align="center" valign="middle">
+      <td align="center" valign="middle">
         <a href="https://github.com/stheffani" target="_blank">
-          <img width="80px" src="">
+          <img width="80px" src="https://avatars.githubusercontent.com/u/90808245?v=4">
         </a>
-      </td> -->
+      </td>
     </tr>
   </tbody>
 </table>
