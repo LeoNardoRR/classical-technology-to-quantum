@@ -20,11 +20,11 @@
 ## Quick Start
 *Clone this repository:*
  ```
- git clone https://github.com/LeoNardoRR/Classical_technology_to_quantum_technology.git
+ git clone https://github.com/LeoNardoRR/classical_technology_to_quantum.git
  ```
 *Enter in the project's folder:*
  ```
- cd Classical_technology_to_quantum_technolog
+ cd classical_technology_to_quantum
  ```
  
 **Run whatever project you want!**
