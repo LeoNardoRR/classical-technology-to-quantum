@@ -57,7 +57,7 @@
       </td>
       <td align="center" valign="middle">
         <a href="https://github.com/stheffani" target="_blank">
-          <img width="80px" src="https://avatars.githubusercontent.com/u/90808245?v=4">
+          <img width="80px" src="https://github.com/LeoNardoRR/classical-technology-to-quantum/blob/main/image/quantum-computer.jpg?raw=true">
         </a>
       </td>
     </tr>
