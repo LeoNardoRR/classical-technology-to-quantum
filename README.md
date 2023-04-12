@@ -37,29 +37,26 @@
 
 ## Researchers
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
-          <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
-        </a>
-      </td>
-      <!-- <td align="center" valign="middle">
-        <a href="https://github.com/erickgalvao04" target="_blank">
-          <img width="80px" src="">
-        </a>
-      </td> -->
-        <td align="center" valign="middle">
-        <a href="https://github.com/LeoNardoRR" target="_blank">
-          <img width="80px" src="https://avatars.githubusercontent.com/u/103374280?v=4">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://github.com/stheffani" target="_blank">
-          <img width="80px" src="https://github.com/LeoNardoRR/classical-technology-to-quantum/blob/main/image/quantum-computer.jpg?raw=true">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>
+    <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
+        Mariana G. V. Miano
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/erickgalvao04" target="_blank">
+        Erick Galvão
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/LeoNardoRR" target="_blank">
+        Leonardo Ribeiro
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/stheffani" target="_blank">
+        Stheffany Emboava
+    </a>
+  </li>
+</ul>
