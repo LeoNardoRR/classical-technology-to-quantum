@@ -39,22 +39,26 @@
 
 <ul>
   <li>
+  <a>Advisor - </a>
     <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
         Mariana G. V. Miano
     </a>
   </li>
   
   <li>
+  <a>Manager - </a>
     <a href="https://github.com/erickgalvao04" target="_blank">
         Erick Galvão
     </a>
   </li>
-  <li>
+  <li>  
+  <a>Programmer - </a>
     <a href="https://github.com/LeoNardoRR" target="_blank">
         Leonardo Ribeiro
     </a>
   </li>
   <li>
+  <a>Editor - </a>
     <a href="https://github.com/stheffani" target="_blank">
         Stheffany Emboava
     </a>
