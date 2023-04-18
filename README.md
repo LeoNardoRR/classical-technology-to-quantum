@@ -52,7 +52,7 @@
       </td>
       <td align="center" valign="middle">
         <a href="https://github.com/LeoNardoRR" target="_blank">
-          <img width="80px" src="https://avatars.githubusercontent.com/u/90808245?v=4">
+          <img width="80px" src="https://avatars.githubusercontent.com/u/103374280?s=400&u=c3cdc076153d0ab15fa3aa2612f7f8c71c215c02&v=4">
         </a>
       </td>
       <td align="center" valign="middle">
