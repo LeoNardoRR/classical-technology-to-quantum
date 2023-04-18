@@ -37,30 +37,29 @@
 
 ## Researchers
 
-<ul>
-  <li>
-  <a>Advisor - </a>
-    <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
-        Mariana G. V. Miano
-    </a>
-  </li>
-  
-  <li>
-  <a>Manager - </a>
-    <a href="https://github.com/erickgalvao04" target="_blank">
-        Erick Galvão
-    </a>
-  </li>
-  <li>  
-  <a>Programmer - </a>
-    <a href="https://github.com/LeoNardoRR" target="_blank">
-        Leonardo Ribeiro
-    </a>
-  </li>
-  <li>
-  <a>Editor - </a>
-    <a href="https://github.com/stheffani" target="_blank">
-        Stheffany Emboava
-    </a>
-  </li>
-</ul>
+<table>
+  <tbody>
+    <tr>
+       <td align="center" valign="middle">
+        <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
+          <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/erickgalvao04" target="_blank">
+          <img width="80px" src="https://avatars.githubusercontent.com/u/113725094?v=4">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/LeoNardoRR" target="_blank">
+          <img width="80px" src="https://avatars.githubusercontent.com/u/103374280?s=400&u=c3cdc076153d0ab15fa3aa2612f7f8c71c215c02&v=4">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/stheffani" target="_blank">
+          <img width="80px" src="https://avatars.githubusercontent.com/u/90808245?v=4">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
