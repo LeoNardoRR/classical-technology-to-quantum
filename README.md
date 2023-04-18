@@ -40,14 +40,24 @@
 <table>
   <tbody>
     <tr>
+       <td align="center" valign="middle">
+        <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
+          <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
+        </a>
+      </td>
       <td align="center" valign="middle">
-        <a href="https://github.com/stheffani" target="_blank">
+        <a href="https://github.com/erickgalvao04" target="_blank">
+          <img width="80px" src="https://avatars.githubusercontent.com/u/113725094?v=4">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/LeoNardoRR" target="_blank">
           <img width="80px" src="https://avatars.githubusercontent.com/u/90808245?v=4">
         </a>
       </td>
       <td align="center" valign="middle">
-        <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
-          <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
+        <a href="https://github.com/stheffani" target="_blank">
+          <img width="80px" src="https://avatars.githubusercontent.com/u/90808245?v=4">
         </a>
       </td>
     </tr>
