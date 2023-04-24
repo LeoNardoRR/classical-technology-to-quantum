@@ -41,6 +41,24 @@
   <tbody>
     <tr>
        <td align="center" valign="middle">
+        <a>Orientadora</a>
+      </td>
+      <td align="center" valign="middle">
+        <a>Gestor</a>
+      </td>
+      <td align="center" valign="middle">
+        <a>Desenvolvedor</a>
+      </td>
+      <td align="center" valign="middle">
+        <a>Redatora</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <tbody>
+    <tr>
+       <td align="center" valign="middle">
         <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
           <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
         </a>
