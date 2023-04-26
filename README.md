@@ -16,8 +16,8 @@
 
 ## This project was built with: 
 
-- [JAVA](https://www.java.com/pt-BR/)
-- [SILQ](https://silq.ethz.ch/)
+- [Python](https://www.Python.com/pt-BR/)
+- [Java](https://Java.ethz.ch/)
 
 ## Quick Start
 *Clone this repository:*
