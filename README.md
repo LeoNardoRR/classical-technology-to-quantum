@@ -16,8 +16,8 @@
 
 ## This project was built with: 
 
-- [JAVA](https://www.java.com/pt-BR/)
-- [SILQ](https://silq.ethz.ch/)
+- [Python](https://www.Python.com/pt-BR/)
+- [Java](https://Java.ethz.ch/)
 
 ## Quick Start
 *Clone this repository:*
@@ -37,6 +37,24 @@
 
 ## Researchers
 
+<table>
+  <tbody>
+    <tr>
+       <td align="center" valign="middle">
+        <a>Orientadora</a>
+      </td>
+      <td align="center" valign="middle">
+        <a>Gestor</a>
+      </td>
+      <td align="center" valign="middle">
+        <a>Desenvolvedor</a>
+      </td>
+      <td align="center" valign="middle">
+        <a>Redatora</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 <table>
   <tbody>
     <tr>
