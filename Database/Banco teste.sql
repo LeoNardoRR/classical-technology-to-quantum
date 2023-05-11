@@ -1,2 +1,2 @@
-use teste;
-select * from note where nome = 'Leonardo';
+use iniciacao;
+select * from teste;
