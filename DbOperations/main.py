@@ -1,7 +1,7 @@
 import qsharp
 from DbOperations import SayHello
 
-print(SayHello.simulate(name="leonardo"))
+print(SayHello.simulate(name="Leonardo Ribeiro"))
 
 # 1. Trazer os usuários (SELECT)
 # 2. Pegar para cada um desses um usuários e tentar realizar a descriptografia da sua senha
