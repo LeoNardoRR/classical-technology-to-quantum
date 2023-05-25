@@ -29,11 +29,6 @@ if con.is_connected():
     cursor.close()
     con.close()
 
-# if con.is_connected():
-#    cursor.close()
-#    con.close()
-#    print("Conexão ao MySQL foi encerrada")
-
 # 2. Pegar para cada um desses um usuários e tentar realizar a descriptografia da sua senha
 # usando o código quantico que vai ser criado no Q# (DbOperations.BreakPassword('123456'))
 # 3. Verificar se foi bem sucedido e também quanto tempo levou
