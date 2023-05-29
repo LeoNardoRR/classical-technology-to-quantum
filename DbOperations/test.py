@@ -1,5 +1,5 @@
-import qsharp
+#import qsharp
 
-from DbOperations import SayHello
+#from DbOperations import SayHello
 
-print(SayHello.simulate(name="Leonardo teste"))
+#print(SayHello.simulate(name="Leonardo teste"))
