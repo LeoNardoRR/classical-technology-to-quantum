@@ -79,7 +79,6 @@ decrypted = fernet.decrypt(encrypted)
 with open('nba.csv', 'wb') as dec_file:
     dec_file.write(decrypted)
 
-
 # 3. Verificar se foi bem sucedido e também quanto tempo levou
 # 4. Trocar a senha por um algortimo ruim (MD5) e depois tentar usar uma senha boa (RSA)
 # (e tentar distinguir a diferença de velocidade)
