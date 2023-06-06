@@ -1,83 +1,68 @@
-#import qsharp
 import mysql.connector
-import qsharp
+import bcrypt
 
-from DbOperations import SayHello
-#from DbOperations import QuantumDecrypt
-#from DbOperations import register
-
-#print(SayHello.simulate(name="Leonardo Ribeiro"))
-
-# 1. Trazer os usuários (SELECT)
 # Estabelece a conexão com o banco de dados MySQL
 con = mysql.connector.connect(
     host='localhost',
-    database='aes',
+    database='md5',
     user='root',
     password='123456'
 )
 
-if con.is_connected():
-    cursor = con.cursor()
-    
-    # Executa a consulta SELECT
-    cursor.execute("SELECT * FROM ic WHERE ano=1994")
-    
-    # Obtém todos os registros da consulta
-    rows = cursor.fetchall()
-    
-    # Itera sobre os registros e exibe os resultados
+# Crie um cursor
+cursor = con.cursor()
+
+# Solicitar que a pessoa digite seu usuário
+login = input("Digite seu login: ")
+
+# Verificar se o usuário existe no banco de dados
+query = "SELECT * FROM ic WHERE login = %s"
+cursor.execute(query, (login,))
+
+# Recupere todos os registros retornados pela consulta
+rows = cursor.fetchall()
+
+# Verificar se algum registro foi encontrado
+if len(rows) > 0:
+    # Percorra os registros e imprima os resultados
     for row in rows:
         print(row)
-    
-    cursor.close()
-    con.close()
+else:
+    print("Login não encontrado.")
 
-# 2. Pegar para cada um desses um usuários e tentar realizar a descriptografia da sua senha
-# usando o código quantico que vai ser criado no Q# (DbOperations.BreakPassword('123456'))
+# Inserir um novo campo criptografado
+alter_query = "ALTER TABLE ic ADD COLUMN campo_criptografado VARCHAR(255)"
+con.commit()
 
-from cryptography.fernet import Fernet
+# Solicitar que a pessoa digite o login novamente
+login = input("Digite seu login novamente: ")
 
-# geração de chave
-key = Fernet.generate_key()
+# Valor original
+login_original = login
 
-# string a chave em um arquivo
-with open('filekey.key', 'wb') as filekey:
-    filekey.write(key)
+# Criptografar o valor
+login_criptografado = bcrypt.hashpw(login_original.encode('utf-8'), bcrypt.gensalt())
 
-# abrindo a chave
-with open('filekey.key', 'rb') as filekey:
-    key = filekey.read()
+# Inserir o valor criptografado na tabela
+update_query = "UPDATE ic SET campo_criptografado = %s WHERE login = %s"
+cursor.execute(update_query, (login_criptografado, login))
+con.commit()
 
-# usando a chave gerada
-fernet = Fernet(key)
+# Verificar a alteração no banco de dados
+select_query = "SELECT * FROM ic WHERE login = %s"
+cursor.execute(select_query, (login,))
+updated_rows = cursor.fetchall()
 
-# abrindo o arquivo original para criptografar
-with open('nba.csv', 'rb') as file:
-    original = file.read()
+# Imprimir os resultados
+if len(updated_rows) > 0:
+    for row in updated_rows:
+        print(row)
+else:
+    print("Não foi possível encontrar o login atualizado.")
 
-# criptografar o arquivo
-encrypted = fernet.encrypt(original)
-
-# abrir o arquivo no modo de gravação e
-# gravar os dados criptografados
-with open('nba.csv', 'wb') as encrypted_file:
-    encrypted_file.write(encrypted)
-
-# usando a chave
-fernet = Fernet(key)
-
-# abrindo o arquivo criptografado
-with open('nba.csv', 'rb') as enc_file:
-    encrypted = enc_file.read()
-
-# descriptografando o arquivo
-decrypted = fernet.decrypt(encrypted)
-
-# abrindo o arquivo no modo de gravação e
-# gravando os dados descriptografados
-with open('nba.csv', 'wb') as dec_file:
-    dec_file.write(decrypted)
+# Fechar o cursor e a conexão com o banco de dados
+cursor.close()
+con.close()
 
 # 3. Verificar se foi bem sucedido e também quanto tempo levou
 # 4. Trocar a senha por um algortimo ruim (MD5) e depois tentar usar uma senha boa (RSA)
