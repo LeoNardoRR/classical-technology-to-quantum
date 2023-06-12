@@ -47,22 +47,41 @@
  git push origin my-feature
  ```
  
+*Contribute:*
+
+**Fork this repository**
+
+**Create a branch with your feature: git checkout -b my-feature**
+```
+git checkout -b my-feature
+```
+
+**Commit your changes: git commit -m 'feat: My new feature'**
+```
+git commit -m 'feat: My new feature'
+```
+
+**Push your branch: git push origin my-feature**
+```
+git push origin my-feature
+```
+
 ## Researchers
 
 <table>
   <tbody>
     <tr>
        <td align="center" valign="middle">
-        <a>Orientadora</a>
+        <a>Advisor</a>
       </td>
       <td align="center" valign="middle">
-        <a>Gestor</a>
+        <a>Manager</a>
       </td>
       <td align="center" valign="middle">
-        <a>Desenvolvedor</a>
+        <a>Developer</a>
       </td>
       <td align="center" valign="middle">
-        <a>Redatora</a>
+        <a>Copywriter</a>
       </td>
     </tr>
   </tbody>
