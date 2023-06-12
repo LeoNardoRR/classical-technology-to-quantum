@@ -16,8 +16,11 @@
 
 ## This project was built with: 
 
-- [Python](https://www.Python.com/pt-BR/)
-- [Java](https://Java.ethz.ch/)
+- [Python](https://www.Python.com)
+- [MySQL](https://www.mysql.com/)
+- [.NET](https://dotnet.microsoft.com)
+- [Q#](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
+- [QDK](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
 
 ## Quick Start
 *Clone this repository:*
