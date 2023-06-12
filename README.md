@@ -72,16 +72,16 @@ git push origin my-feature
   <tbody>
     <tr>
        <td align="center" valign="middle">
-        <a>Advisor</a>
+        <a> - Advisor - </a>
       </td>
       <td align="center" valign="middle">
-        <a>Manager</a>
+        <a> - Manager - </a>
       </td>
       <td align="center" valign="middle">
-        <a>Developer</a>
+        <a> - Developer - </a>
       </td>
       <td align="center" valign="middle">
-        <a>Copywriter</a>
+        <a> - Copywriter - </a>
       </td>
     </tr>
   </tbody>
