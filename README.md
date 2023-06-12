@@ -23,21 +23,30 @@
 - [QDK](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
 
 ## Quick Start
-*Clone this repository:*
+**Clone this repository:**
  ```
  git clone https://github.com/LeoNardoRR/classical_technology_to_quantum.git
  ```
-*Enter in the project's folder:*
+**Enter in the project's folder:**
  ```
  cd classical_technology_to_quantum
  ```
- 
-**Run whatever project you want!**
- 
+  
 <!--
 ## 🧾	License
 -->
 
+ **Commit your changes:**
+ 
+ ```
+ git commit -m 'feat: My new feature
+ ```
+ 
+ **Push your branch:** 
+ ```
+ git push origin my-feature
+ ```
+ 
 ## Researchers
 
 <table>
