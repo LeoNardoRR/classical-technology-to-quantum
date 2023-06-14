@@ -16,24 +16,55 @@
 
 ## This project was built with: 
 
-- [Python](https://www.Python.com/pt-BR/)
-- [Java](https://Java.ethz.ch/)
+- [Python](https://www.Python.com)
+- [MySQL](https://www.mysql.com/)
+- [.NET](https://dotnet.microsoft.com)
+- [Q#](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
+- [QDK](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
 
 ## Quick Start
-*Clone this repository:*
+**Clone this repository:**
  ```
  git clone https://github.com/LeoNardoRR/classical_technology_to_quantum.git
  ```
-*Enter in the project's folder:*
+**Enter in the project's folder:**
  ```
  cd classical_technology_to_quantum
  ```
- 
-**Run whatever project you want!**
- 
+  
 <!--
 ## 🧾	License
 -->
+
+ **Commit your changes:**
+ 
+ ```
+ git commit -m 'feat: My new feature
+ ```
+ 
+ **Push your branch:** 
+ ```
+ git push origin my-feature
+ ```
+ 
+*Contribute:*
+
+**Fork this repository**
+
+**Create a branch with your feature: git checkout -b my-feature**
+```
+git checkout -b my-feature
+```
+
+**Commit your changes: git commit -m 'feat: My new feature'**
+```
+git commit -m 'feat: My new feature'
+```
+
+**Push your branch: git push origin my-feature**
+```
+git push origin my-feature
+```
 
 ## Researchers
 
@@ -41,16 +72,16 @@
   <tbody>
     <tr>
        <td align="center" valign="middle">
-        <a>Orientadora</a>
+        <a> - Advisor - </a>
       </td>
       <td align="center" valign="middle">
-        <a>Gestor</a>
+        <a> - Manager - </a>
       </td>
       <td align="center" valign="middle">
-        <a>Desenvolvedor</a>
+        <a> - Developer - </a>
       </td>
       <td align="center" valign="middle">
-        <a>Redatora</a>
+        <a> - Copywriter - </a>
       </td>
     </tr>
   </tbody>
