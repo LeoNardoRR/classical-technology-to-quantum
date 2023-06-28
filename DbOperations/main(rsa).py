@@ -71,8 +71,11 @@ class RsaHelper():
 
 r = RsaHelper(path_to_pem="/tmp/" ,name_file_pem="botafogodotextor.pem", create_private=True);
 texto = "Botafogo campeão, será!!!! Deus salve Textor";
+
 criptografado = r.encrypt(texto);
+
 descriptografado = r.decrypt(criptografado);
+
 print(texto);
 print(criptografado);
 print(descriptografado);

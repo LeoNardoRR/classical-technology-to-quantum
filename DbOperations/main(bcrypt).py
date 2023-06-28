@@ -1,9 +1,8 @@
 import mysql.connector
 import bcrypt
-#import base64, os
-#from Crypto import Cipher;
-#from Crypto.PublicKey import RSA
-#from Crypto.Cipher import PKCS1_v1_5 as Cipher_PKCS1_v1_5
+import time
+import hashlib
+
 
 #O bcrypt é uma função de hash e algoritmo de criptografia usado para armazenar senhas de forma segura. 
 #Ele foi projetado para ser lento e resistente a ataques de força bruta, o que o torna uma escolha popular para o armazenamento 
@@ -27,7 +26,7 @@ def tela():
     print("----------------\n")
     
     # Desenha o titulo
-    print("   AQUI TEREMOS UM TESTE DE CRITORGRIFIA \n")
+    print("   AQUI TEREMOS UM TESTE DE CRIPTOGRAFIA \n")
 
 
     print("----------------\n")
@@ -76,7 +75,7 @@ try:
     print("----------------\n")
     
     # Desenha a área do jogo
-    print("   AQUI INSERIMOS O NOVO CAMPO COM A SENHA CRIPTOGRADAFA: \n")
+    print("   AQUI INSERIMOS O NOVO CAMPO COM A SENHA CRIPTOGRAFADA: \n")
 
 
     print("----------------\n")
@@ -122,7 +121,7 @@ if len(updated_rows) > 0:
         print(alter)
 else:
     print("Não foi possível encontrar o senha atualizado.")
-
+    exit()
 print("----------------\n")
     
     # Desenha a área do jogo
@@ -130,6 +129,35 @@ print("   AQUI SUA SENHA CRIPTOGRAFADA FOI GERADA! \n")
 
 
 print("----------------\n")
+
+senha_hash_bd = row[5]  # Assumindo que a coluna 'senha_criptografado' está na posição 5 do resultado da consulta
+
+# Exibir o hash gerado
+print("senha_criptografado:", senha_criptografado.decode())
+
+# Converter senha_criptografado para string
+senha_criptografado_str = senha_criptografado.decode('utf-8')
+
+# Hash 1
+senha_criptografado = hashlib.sha256(b"senha123").hexdigest()
+
+# Hash 2
+senha_criptografado = hashlib.sha256(b"senha456").hexdigest()
+
+# Comparar os hashes
+if senha_criptografado != senha_hash_bd:
+    print("Os hashes são iguais, a senha esta correta!.")
+else:
+    print("Os hashes são diferentes, a senha esta incorreta.")
+
+#Calcular tempo de execução do comando
+#def calcular_tempo_execucao(checkpw):
+#    inicio = time.time()
+    # Executar o comando
+#    exec(checkpw)
+#    fim = time.time()
+#    tempo_execucao = fim - inicio
+#    return tempo_execucao
 
 # Fechar o cursor e a conexão com o banco de dados
 cursor.close()
