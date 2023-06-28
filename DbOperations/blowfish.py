@@ -132,6 +132,9 @@ print("----------------\n")
 
 senha_hash_bd = row[5]  # Assumindo que a coluna 'senha_criptografado' está na posição 5 do resultado da consulta
 
+# Registrar o tempo de início
+inicio = time.time()
+
 # Exibir o hash gerado
 print("senha_criptografado:", senha_criptografado.decode())
 
@@ -162,6 +165,14 @@ else:
 # Fechar o cursor e a conexão com o banco de dados
 cursor.close()
 con.close()
+
+# Registrar o tempo de término
+fim = time.time()
+
+# Calcular o tempo de execução
+tempo_execucao = fim - inicio
+
+print("Tempo de execução:", tempo_execucao, "segundos")
 
 # 3. Verificar se foi bem sucedido 
 #E também quanto tempo levou
