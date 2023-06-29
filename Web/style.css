@@ -119,38 +119,7 @@ input:checked + .collapse {
     height: 200px;
 }
 
-.botao{
-  background-color: #faab00;
-  border: none;
-  outline: none;
-  color: #0d0d0d;
-  padding: 10px 5px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-bottom: 10px;
-  width: 80%;
-  align-items: center;
-  margin-left: 8vh;
-  border: 2px solid #f6f6f6;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  float: left;
-  transition: 0.3s;
-  font-family:"Poppins"
-}
-
-.comparar
-{
-  width:100%;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
-  color: green;
-}
-
-.botao:hover  { background-color: #404040; }
+z
 
 .choice {
   background-color: #e0e0e0;
