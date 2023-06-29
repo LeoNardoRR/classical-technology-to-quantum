@@ -6,8 +6,8 @@
   <meta http-equiv="content-language" content="pt-br" />
   <meta name="robots" content="index, follow"/>
   
-  <title>Tela de login pronta HTML CSS</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Fatec de Americana</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -17,20 +17,18 @@
   
   <div class="content-login">
 
-      <h2 class="active"> Descritografia para a computação quantica</h2>
-
+      <h2 class="active"> Descriptografia para a computação clássica e quântica</h2>
+      <a class="text">Escolha o tipo de descriptografia que deseja usar:</a>
       <form class="box-login" method="post" action="#">
+        <select class="choice" name="choice">
+          <option selected>Selecione</option>
+          <option value="second">Clássica</option>
+          <option value="third">Quântica</option>
+        </select>
         <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
-        <input type="submit" class="botao" value="Descriptografar">
+        <input type="submit" class="botao" value="Comparar">
       </form>
-
-
-      <div class="box-lembrar-senha">  
-        <a class="password" href="#">Sua senha foi descriptograda em: </a>
-        <input type="text" class="retorno">
-      </div>
-
-  </div><!--Form Content-->
+    
 
 </div><!--wrapper-->
 

@@ -10,7 +10,7 @@
   
 }
 
-html { background-color: #404040; }
+html { background-color: #2c2c2cd8; }
 body { font-family:"Poppins", sans-serif; height:100vh; }
 
 h2 {
@@ -61,13 +61,22 @@ h2 {
  
 }
 
+.text {
+  width:100%;
+  float:left;
+  padding: 10px;
+  text-align: left;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
 .box-lembrar-senha {
 
   width:100%;
   float:left;
   background-color: #f6f6f6;
   border-top: 1px solid #dce8f1;
-  padding: 25px;
+  padding: 10px;
   text-align: left;
   -webkit-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
@@ -100,9 +109,8 @@ h2 {
 
 .botao:hover  { background-color: #404040; }
 
-.campo {
-  
-  background-color: #f6f6f6;
+.choice {
+  background-color: #e0e0e0;
   border: none;
   outline: none;
   color: #0d0d0d;
@@ -116,19 +124,39 @@ h2 {
   border-radius: 4px;
   float: left;
   transition: 0.3s;
+  font-family:"Poppins"
+}
+
+.campo {
+  
+  background-color: #e0e0e0;
+  border: none;
+  outline: none;
+  color: #0d0d0d;
+  padding: 10px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 2px solid #f6f6f6;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  float: left;
+  transition: 0.3s;
+  font-family:"Poppins"
 
 }
 
 .campo:focus {
  
   background-color: #fff;
-  color:#ed9d56;
+  color:#000000;
 
 }
 
 .campo:placeholder {
 
-  color: #cccccc;
+  color: #7e7e7e;
 
 }
 
@@ -146,6 +174,16 @@ h2 {
   border-radius: 3px;
   width: 5vh;
   height: 5vh;
+}
+
+.collapse {
+	height: 0px;
+	overflow: hidden;
+	transition: height 0.8s;
+}
+
+h4:active + .collapse {
+	height: 200px;
 }
 
 .link:hover { color:#404040; }
