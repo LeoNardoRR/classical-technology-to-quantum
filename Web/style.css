@@ -88,23 +88,58 @@ h2 {
   text-transform: uppercase;
 }
 
-.botao {
-  
-  width:100%;
-  display: block;
-  float:left;
-  background-color: #ed9d56;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  padding: 15px 80px;
-  text-align: center;
-  font-size:18px;
-  -webkit-border-radius:4px;
-  border-radius:4px;
-  transition: 0.3s;
-  text-transform: uppercase;
+details {
+  summary {
+    list-style: none;
+  }
+}
 
+label input[type="checkbox"] {
+    display: none;
+}
+
+label h4 {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.collapse {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.8s;
+}
+
+input:checked + .collapse {
+    height: 200px;
+}
+
+.botao{
+  background-color: #faab00;
+  border: none;
+  outline: none;
+  color: #0d0d0d;
+  padding: 10px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 80%;
+  align-items: center;
+  margin-left: 8vh;
+  border: 2px solid #f6f6f6;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  float: left;
+  transition: 0.3s;
+  font-family:"Poppins"
+}
+
+.comparar
+{
+  width:100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
 }
 
 .botao:hover  { background-color: #404040; }
