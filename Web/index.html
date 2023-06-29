@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  
   <meta charset="utf-8">
   <meta http-equiv="content-language" content="pt-br" />
   <meta name="robots" content="index, follow"/>
-  
   <title>Fatec de Americana</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-
-
-<div class="wrapper fadeInDown">
-  
+<div class="wrapper fadeInDown">  
   <div class="content-login">
-
       <h2 class="active"> Descriptografia para a computação clássica e quântica</h2>
-      <a class="text">Escolha o tipo de descriptografia que deseja usar:</a>
+      <a class="escolha">Digite sua senha e escolha o algoritmo:</a>
+      <a class="text">Computação clássica:</a>
       <form class="box-login" method="post" action="#">
+        <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
         <select class="choice" name="choice">
           <option selected>Selecione</option>
-          <option value="second">Clássica</option>
-          <option value="third">Quântica</option>
+          <option value="second">Blowfish</option>
+          <option value="third">?????</option>
         </select>
-        <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
       </form>
+
+      <a class="text">Computação quântica:</a>
+      <form class="box-login" method="post" action="#">
+        <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
+        <select class="choice" name="choice">
+          <option selected>Selecione</option>
+          <option value="second">Shor</option>
+          <option value="third">?????</option>
+        </select>
+      </form>
+
         <label>
             <h4 class="comparar" >Comparar</h4>
             <input type="checkbox" />
@@ -34,7 +39,5 @@
                 belly venison bacon. Fatback turkey swine tongue, chuck jerky doner pork belly pork corned beef rump leberkas. Ham hock fatback bresaola tri-tip salami.</div>
         </label>    
 </div><!--wrapper-->
-
-  
 </body>
 </html>
