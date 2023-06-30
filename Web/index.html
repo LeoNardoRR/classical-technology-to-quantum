@@ -31,13 +31,22 @@
           <option value="third">?????</option>
         </select>
       </form>
-        <label>
-          <div class="button">Comparar</div>
-            <input type="checkbox" />
-        
-            <div id="col3Content" class="collapse">Bacon ipsum dolor amet pancetta fatback ground round, bresaola strip steak boudin filet mignon turkey kevin drumstick sirloin swine pork belly. Corned beef shankle ham hock drumstick capicola short loin ball tip tri-tip kevin turkey chuck pork
-                belly venison bacon. Fatback turkey swine tongue, chuck jerky doner pork belly pork corned beef rump leberkas. Ham hock fatback bresaola tri-tip salami.</div>
-        </label>    
-</div><!--wrapper-->
+      <button class="botao" onclick="toggleDiv()">COMPARAR</button>
+      <div id="myDiv" class="hidden">
+        <a class="resultado">Resultado</a>
+      </div>
+      <script>
+        function toggleDiv() {
+          var div = document.getElementById("myDiv");
+          
+          if (div.style.display === "none") {
+            div.style.display = "none";
+          } else {
+            div.style.display = "none";
+          }
+        }
+      </script>
+      
+</div>
 </body>
 </html>
