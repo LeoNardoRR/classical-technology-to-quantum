@@ -8,45 +8,51 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrapper fadeInDown">  
-  <div class="content-login">
-      <h2 class="active"> Descriptografia para a computação clássica e quântica</h2>
-      <a class="escolha">Digite sua senha e escolha o algoritmo:</a>
-      <a class="text">Computação clássica:</a>
-      <form class="box-login" method="post" action="#">
-        <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
-        <select class="choice" name="choice">
-          <option selected>Selecione</option>
-          <option value="second">Blowfish</option>
-          <option value="third">?????</option>
-        </select>
-      </form>
-
-      <a class="text">Computação quântica:</a>
-      <form class="box-login" method="post" action="#">
-        <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
-        <select class="choice" name="choice">
-          <option selected>Selecione</option>
-          <option value="second">Shor</option>
-          <option value="third">?????</option>
-        </select>
-      </form>
-      <button class="botao" onclick="toggleDiv()">COMPARAR</button>
-      <div id="myDiv" class="hidden">
-        <a class="resultado">Resultado</a>
+    <div class="container">
+      <div class="first">
+        <div class="content-login">
+        <a class="text">Computação clássica:</a>
+        <form class="box-login" method="post" action="#">
+          <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
+          <select class="choice" name="choice">
+            <option selected>Selecione</option>
+            <option value="second">Blowfish</option>
+          </select>
+          <button class="botao" onclick="toggleDiv()">Comparar</button>
+        </form>
       </div>
+    </div>
+  
+    <div class="second">
+      <div class="content-login">
+        <a class="text">Computação quântica:</a>
+        <form class="box-login" method="post" action="#">
+          <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
+          <select class="choice" name="choice">
+            <option selected>Selecione</option>
+            <option value="second">Shor</option>
+          </select>
+          <button class="botao" onclick="toggleDiv()">Comparar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="second-container">
+  <div class="result">Resultado
+  </div>
+
       <script>
-        function toggleDiv() {
+        function toggleDiv() 
+        {
           var div = document.getElementById("myDiv");
-          
           if (div.style.display === "none") {
-            div.style.display = "none";
+            div.style.display = "block";
           } else {
             div.style.display = "none";
           }
         }
       </script>
-      
 </div>
 </body>
 </html>

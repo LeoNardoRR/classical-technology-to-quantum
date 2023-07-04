@@ -26,14 +26,29 @@ h2 {
 
 }
 
-.wrapper {
-  
+.container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.first {
+  margin-top: 10vh;
+  position: relative;
+  display: flex;
   flex-direction: column; 
   justify-content: center;
-  width: 100%;
-  min-height: 100%;
+  width: 30%;
+}
+
+.second {
+  margin-top: 10vh; 
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  width: 30%;
 
 }
 
@@ -42,13 +57,9 @@ h2 {
   -webkit-border-radius: 4px;
   border-radius: 10px 10px 10px 10px;
   background: #fff;
-  padding: 30px;
-  width: 95%;
-  max-width: 500px;
+  width: 100%;
   position: relative;
-  padding: 0px;
-  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 12px 20px 17px 0px rgba(0,0,0,0.3);
   text-align: center;
 
 }
@@ -61,13 +72,20 @@ h2 {
  
 }
 
+.title{
+  margin-top: 5%;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .text {
-  width:100%;
-  float:left;
-  margin-left: 2vh;
-  text-align: left;
-  -webkit-border-radius: 0 0 10px 10px;
-  border-radius: 0 0 10px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  float:center;
 }
 
 .escolha {
@@ -92,25 +110,6 @@ h2 {
   border-radius: 0 0 10px 10px;
 }
 
-
-.expanded-button::after {
-  content: '-';
-}
-
-input:checked + .collapse {
-    height: 200px;
-}
-
-
-.comparar
-{
-  width:100%;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  padding: 15px;
-}
-
 .botao {
   background-color: #ffbb00f1;
   border: none;
@@ -118,40 +117,40 @@ input:checked + .collapse {
   color: #ffffff;
   padding: 10px 5px;
   text-decoration: none;
-  margin-left: 20%;
   font-size: 16px;
-  margin-bottom: 10px;
   width: 60%;
   -webkit-border-radius: 4px;
   border-radius: 6px;
-  float: left;
+  align-items: center;
+  float: center;
   transition: 0.3s;
+  text-transform: uppercase;
   font-family:"Poppins";
   cursor: pointer;
 }
 
-.hidden-div {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  padding: 20px;
-  border: 1px solid #ccc;
-  z-index: 9999;
-}
-
-.resultado{
-  margin-top: 33%;
-  margin-left: 10px;
-  padding: 10px;
-  position: fixed;
-  background-color: rgb(255, 255, 255);
-  border-radius: 6px;
-}
-
 .botao:hover  { background-color: #404040; }
+
+.second-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result{
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  width: 60.7%;
+  height: 100px;
+  background-color: #f6f6f6;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 12px 20px 17px 0px rgba(0,0,0,0.3);
+}
+
 
 .choice {
   background-color: #e0e0e0;
