@@ -10,7 +10,7 @@
   
 }
 
-html { background-color: #2c2c2cd8; }
+html { background-color: #474747; }
 body { font-family:"Poppins", sans-serif; height:100vh; }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 }
 
 .first {
-  margin-top: 10vh;
+  margin-top: 15vh;
   position: relative;
   display: flex;
   flex-direction: column; 
@@ -43,7 +43,7 @@ h2 {
 }
 
 .second {
-  margin-top: 10vh; 
+  margin-top: 15vh;
   position: relative;
   display: flex;
   flex-direction: column; 
@@ -219,19 +219,6 @@ h2 {
   height: 5vh;
 }
 
-.collapse {
-	height: 0px;
-	overflow: hidden;
-	transition: height 0.8s;
-}
-
-h4:active + .collapse {
-	height: 200px;
-}
-
-.link:hover { color:#404040; }
-
-/* Animação */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
