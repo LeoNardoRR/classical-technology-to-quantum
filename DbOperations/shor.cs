@@ -16,7 +16,6 @@ namespace ClassicalToQuantum
 
             // Chama a operação Q# para fatorar o número
             var factors = FactorizeNumber.Run(sim, numberToFactorize).Result;
-
             Console.WriteLine($"Os fatores primos de {numberToFactorize} são: {string.Join(", ", factors)}");
         }
     }
