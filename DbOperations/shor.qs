@@ -1,23 +1,35 @@
+open Microsoft.Quantum.Measurement;
+
 namespace shor {
 
-    // Operação auxiliar para tentar fatorar um número em seus fatores primos.
-    operation FactorizeNumberHelper(N : Int, candidate : Int, factors : Int[]) : Int[] {
-        if (N <= 1) {
-            return factors;
-        }
+// Encontra o MDC (máximo divisor comum) de dois números
+function GCD(a : Int, b : Int) : Int {
+    if (b == 0) {
+        return a;
+    } else {
+        return GCD(b, a % b);
+    }
+}
 
-        if (N % candidate == 0) {
-            // Encontrou um fator.
-            set N = N / candidate;
-            return FactorizeNumberHelper(N, candidate, factors + [candidate]);
-        } else {
-            // Tentativa com o próximo candidato.
-            return FactorizeNumberHelper(N, candidate + 1, factors);
+    operation OrderFinding(N : Int) : Int {
+        mutable i = 1;
+        mutable order = 2;
+        repeat {
+            if (GCD(order, N) > 1) {
+                return order;
+            }
+            set order = order * 2;
+            set i += 1;
         }
     }
 
-    // Operação para fatorar um número em seus fatores primos.
-    operation FactorizeNumber(N : Int) : Int[] {
-        return FactorizeNumberHelper(N, 2, new Int[]);
+    operation ShorAlgorithm() : Unit {
+        // O número que queremos fatorar
+        let N = 21;
+        let message = "";
+
+        // Encontra a ordem modular
+        let r = OrderFinding(N);
+        message($"Encontrada ordem r = {r}");
     }
 }

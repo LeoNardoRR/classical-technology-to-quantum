@@ -1,3 +1,6 @@
+import time
+import timeit
+
 def fatoracao(num):
     fatores = []
     divisor = 2
@@ -23,3 +26,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+inicio = timeit.default_timer()
+fim = timeit.default_timer()
+print ('duracao: %f' % (fim - inicio))
