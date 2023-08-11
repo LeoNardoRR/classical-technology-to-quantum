@@ -49,9 +49,7 @@ def fator_n(ord_mult_n, a, n):
     fator = gcd((a ** ord_mult_n) - 1, n)
     return fator
 
-
 #------------------------------------------------------
-
 
 # Coloque os valores apropriados para r, s e a
 r = 4
