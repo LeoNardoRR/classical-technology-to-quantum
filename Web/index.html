@@ -2,30 +2,23 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="content-language" content="pt-br" />
-  <meta name="robots" content="index, follow"/>
   <title>Fatec de Americana</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="second">
-      <div class="content-login">
-        <div class="text">Digite sua senha e escolha o algoritmo</div>
-        <form class="box-login" method="post" action="#">
-          <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
-          <select class="choice" name="choice">
-            <option selected>Selecione</option>
-            <option value="second">Shor</option>
-          </select>
-          <button class="botao" onclick="toggleDiv()">Calcular</button>
-        </form>
-      </div>
+  <div class="container">
+    <div class="content-login">
+      <div class="text">Digite sua senha</div>
+      <form class="box-login" method="post" action="#">
+        <input type="password" id="password" class="campo" name="senha" placeholder="Senha">
+        <select class="choice" name="choice">
+          <option selected>Selecione</option>
+          <option value="second">Shor</option>
+        </select>
+        <button class="botao">Calcular</button>
+      </form>
     </div>
+    <div class="result">Resultado</div>
   </div>
-
-  <div class="second-container">
-  <div class="result">Resultado
-  </div>
-</div>
 </body>
 </html>
