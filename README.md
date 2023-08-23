@@ -97,7 +97,7 @@ git push origin my-feature
       </td>
       <td align="center" valign="middle">
         <a href="https://github.com/erickgalvao04" target="_blank">
-          <img width="80px" src="https://avatars.githubusercontent.com/u/113725094?v=4">
+          <img width="80px" src="https://www.linkedin.com/in/erick-galv%C3%A3o-619739226">
         </a>
       </td>
       <td align="center" valign="middle">
