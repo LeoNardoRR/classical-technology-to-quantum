@@ -21,6 +21,7 @@
 - [.NET](https://dotnet.microsoft.com)
 - [Q#](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
 - [QDK](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
+- [Qiskit ](https://qiskit.org/)
 
 ## Quick Start
 **Clone this repository:**
