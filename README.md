@@ -1,4 +1,4 @@
-<img src="https://github.com/LeoNardoRR/classical-technology-to-quantum/computer.jpg?raw=true">
+<img src="https://github.com/LeoNardoRR/classical-technology-to-quantum/blob/main/img/computer.jpg?raw=true">
 
 <p align="center">
   <a>
