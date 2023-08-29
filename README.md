@@ -1,4 +1,4 @@
-<img src="https://github.com/LeoNardoRR/classical-technology-to-quantum/blob/main/image/quantum-computer.jpg?raw=true">
+<img src="https://github.com/LeoNardoRR/classical-technology-to-quantum/blob/main/img/computer.jpg?raw=true">
 
 <p align="center">
   <a>
@@ -21,6 +21,7 @@
 - [.NET](https://dotnet.microsoft.com)
 - [Q#](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
 - [QDK](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
+- [Qiskit ](https://qiskit.org/)
 
 ## Quick Start
 **Clone this repository:**
@@ -68,47 +69,10 @@ git push origin my-feature
 
 ## Researchers
 
-<table>
-  <tbody>
-    <tr>
-       <td align="center" valign="middle">
-        <a> - Advisor - </a>
-      </td>
-      <td align="center" valign="middle">
-        <a> - Manager - </a>
-      </td>
-      <td align="center" valign="middle">
-        <a> - Developer - </a>
-      </td>
-      <td align="center" valign="middle">
-        <a> - Copywriter - </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <tbody>
-    <tr>
-       <td align="center" valign="middle">
-        <a href="http://lattes.cnpq.br/1666058085031027" target="_blank">
-          <img width="80px" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://github.com/erickgalvao04" target="_blank">
-          <img width="80px" src="https://avatars.githubusercontent.com/u/113725094?v=4">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://github.com/LeoNardoRR" target="_blank">
-          <img width="80px" src="https://avatars.githubusercontent.com/u/103374280?s=400&u=c3cdc076153d0ab15fa3aa2612f7f8c71c215c02&v=4">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://github.com/stheffani" target="_blank">
-          <img width="80px" src="https://avatars.githubusercontent.com/u/90808245?v=4">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+|           Advisor            |         Manager         |        Developer       |       Copywriter       |
+| :---------------------------: | :-----------------------: | :------------------------: | :-----------------------: |
+| [<img src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6" width="115"><br><sub>Mariana Godoy</sub>](http://lattes.cnpq.br/1666058085031027) <br><br> [](https://github.com/erickgalvao04) | [<img src="https://avatars.githubusercontent.com/u/113725094?v=4" width="115"><br><sub>Erick Galvão</sub>](https://github.com/erickgalvao04) <br><br> [erickgalvao04](https://github.com/erickgalvao04) |  [<img src="https://avatars.githubusercontent.com/u/103374280?s=400&u=c3cdc076153d0ab15fa3aa2612f7f8c71c215c02&v=4" width="115"><br><sub>Leonardo Ribeiro</sub>](https://github.com/LeoNardoRR) <br><br> [LeoNardoRR](https://github.com/LeoNardoRR) |  [<img src="https://avatars.githubusercontent.com/u/90808245?v=4" width="115"><br><sub>Stheffany</sub>](https://github.com/stheffani) <br><br> [stheffani](https://github.com/stheffani) |
+|         Reseacher         |         Cybersecurity      |    Cybersecurity    |    Cybersecurity     |
+|           Fatec Americana             |          Fatec Americana           |           Fatec Americana          |          Fatec Americana           |
+
+
