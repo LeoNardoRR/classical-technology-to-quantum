@@ -18,7 +18,7 @@ def factorize(n):
         divisor += 1
     return factors
 
-prime = generate_prime(5)  # Gera um número primo com 10 dígitos
+prime = generate_prime(10)  # Gera um número primo com 10 dígitos
 print('Número primo gerado:', prime)
 print('Fatorando...aguarde!')
 

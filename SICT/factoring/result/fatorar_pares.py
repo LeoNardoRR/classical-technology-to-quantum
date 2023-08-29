@@ -17,7 +17,7 @@ def factorize(n):
         divisor += 1
     return factors
 
-num_even = generate_even(6)  # Gera um número par com 10 dígitos
+num_even = generate_even(10)  # Gera um número par com 10 dígitos
 print('Número par gerado:', num_even)
 print('Fatorando...aguarde!')
 
