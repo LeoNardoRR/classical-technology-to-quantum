@@ -1,5 +1,15 @@
 import math
 import time
+import secrets
+
+num_bytes = 256 // 8
+chave_hexadecimal = secrets.token_hex(num_bytes)
+
+print(f"Chave de 256 bits (hexadecimal): {chave_hexadecimal}")
+
+chave_numero = int(chave_hexadecimal, 16)
+
+print(f"Chave de 256 bits (decimal): {chave_numero}")
 
 def calcular_mdc(a, b):
     while b:
@@ -27,11 +37,9 @@ def fatoracao_quadratica(numero):
         fatores_primos.append(numero)
 
     return fatores_primos
+print("Fatorando!")
+numero_para_fatorar = chave_numero
 
-# Solicite ao usuário que insira um número para realizar a fatoração em primos
-numero_para_fatorar = int(input("Digite um número para fatorar em primos: "))
-
-# Medir o tempo de execução
 inicio = time.time()
 fatores_primos = fatoracao_quadratica(numero_para_fatorar)
 fim = time.time()
