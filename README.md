@@ -22,6 +22,7 @@
 - [Q#](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
 - [QDK](https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
 - [Qiskit ](https://qiskit.org/)
+- [Java]
 
 ## Quick Start
 **Clone this repository:**
@@ -67,12 +68,18 @@ git commit -m 'feat: My new feature'
 git push origin my-feature
 ```
 
-## Researchers
+## **Equipe: Projeto de Segurança de Dados**
 
-|           Advisor            |         Manager         |        Developer       |       Copywriter       |
-| :---------------------------: | :-----------------------: | :------------------------: | :-----------------------: |
-| [<img src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6" width="115"><br><sub>Mariana Godoy</sub>](http://lattes.cnpq.br/1666058085031027) <br><br> [](https://github.com/erickgalvao04) | [<img src="https://avatars.githubusercontent.com/u/113725094?v=4" width="115"><br><sub>Erick Galvão</sub>](https://github.com/erickgalvao04) <br> |  [<img src="https://avatars.githubusercontent.com/u/103374280?s=400&u=c3cdc076153d0ab15fa3aa2612f7f8c71c215c02&v=4" width="115"><br><sub>Leonardo Ribeiro</sub>](https://github.com/LeoNardoRR) <br><br>|  [<img src="https://avatars.githubusercontent.com/u/90808245?v=4" width="115"><br><sub>Stheffany</sub>](https://github.com/stheffani) <br><br> |
-|         Reseacher         |         Cybersecurity      |    Cybersecurity    |    Cybersecurity     |
-|           Fatec Americana             |          Fatec Americana           |           Fatec Americana          |          Fatec Americana           |
+| Advisor: Mariana Godoy | Manager: Erick Galvão | Developer: Leonardo Ribeiro | Copywriter: Stheffany |
+| :---: | :---: | :---: | :---: |
+| [<img src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757651T6" width="100">](http://lattes.cnpq.br/1666058085031027) | [<img src="https://avatars.githubusercontent.com/u/113725094?v=4" width="100">](https://github.com/erickgalvao04) | [<img src="https://avatars.githubusercontent.com/u/103374280?s=400&u=c3cdc076153d0ab15fa3aa2612f7f8c71c215c02&v=4" width="100">](https://github.com/LeoNardoRR) | [<img src="https://avatars.githubusercontent.com/u/90808245?v=4" width="100">](https://github.com/stheffani) |
+
+**Áreas de Atuação:**
+- Mariana Godoy: Pesquisadora na Fatec Americana
+- Erick Galvão: Cybersecurity na Fatec Americana
+- Leonardo Ribeiro: Cybersecurity na Fatec Americana
+- Stheffany: Cybersecurity na Fatec Americana
+
+
 
 
