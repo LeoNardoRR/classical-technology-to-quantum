@@ -35,6 +35,7 @@ public class Factoring {
 
         long duration = endTime - startTime; // Calcula a duração da fatoração em milissegundos
         System.out.println("Tempo de fatoracao: " + duration + " milissegundos");
+        System.out.println("\n-------------------------------------------------");
     }
 
     public static BigInteger generateRandomPrime(int bitLength) {
