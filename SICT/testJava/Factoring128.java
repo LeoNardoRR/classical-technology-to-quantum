@@ -3,10 +3,10 @@ import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Factoring {
+public class Factoring128 {
     public static void main(String[] args) {
         SecureRandom secureRandom = new SecureRandom();
-        byte[] keyBytes = new byte[8]; // 8 bytes = 64 bits
+        byte[] keyBytes = new byte[16]; // 16 bytes = 128 bits
         secureRandom.nextBytes(keyBytes);
 
         String keyHex = bytesToHex(keyBytes);
@@ -16,7 +16,7 @@ public class Factoring {
 
         BigInteger keyNumeric = new BigInteger(keyHex, 16);
 
-        BigInteger q = generateRandomPrime(32); // Gerando um número primo pequeno (32 bits)
+        BigInteger q = generateRandomPrime(64); // Gerando um número primo (64 bits) para uma chave de 128 bits
         BigInteger p = keyNumeric.divide(q);
 
         BigInteger compositeNumber = p.multiply(q);
