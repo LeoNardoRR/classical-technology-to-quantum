@@ -76,9 +76,9 @@ git push origin my-feature
 
 **Áreas de Atuação:**
 - Mariana Godoy: Pesquisadora na Fatec Americana
-- Erick Galvão: Cybersecurity na Fatec Americana
-- Leonardo Ribeiro: Cybersecurity na Fatec Americana
-- Stheffany: Cybersecurity na Fatec Americana
+- Erick Galvão: Gestor
+- Leonardo Ribeiro: Desenvolvedor
+- Stheffany: Redatora
 
 
 
