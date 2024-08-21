@@ -13,7 +13,8 @@ con = mysql.connector.connect(
     host='localhost',
     database='md5',
     user='root',
-    password='123456'
+    password='123456',
+    Teste = '0192'
 )
 
 # Crie um cursor
